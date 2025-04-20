@@ -193,7 +193,7 @@ export default function ProjectsSection() {
             className="group"
           >
             <div className="bg-card border border-border rounded-2xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-primary/10 hover:border-primary/30 relative ">
-              <ProjectCarousel images={project.images} title={project.title} autoplaySpeed={1500} />
+              <ProjectCarousel images={project.images} title={project.title} autoplaySpeed={3000} />
 
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">{project.title}</h3>

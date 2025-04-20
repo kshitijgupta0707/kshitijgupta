@@ -19,8 +19,8 @@ export default function MobileNav({ sectionRefs }: MobileNavProps) {
     { name: "Home", section: "hero", icon: Home, hasDialog: false },
     { name: "About", section: "about", icon: User, hasDialog: false },
     { name: "Projects", section: "projects", icon: Code, hasDialog: true },
-    { name: "Skills", section: "skills", icon: Award, hasDialog: false },
-    { name: "Experience", section: "experience", icon: Briefcase, hasDialog: false },
+    // { name: "Skills", section: "skills", icon: Award, hasDialog: false },
+    // { name: "Experience", section: "experience", icon: Briefcase, hasDialog: false },
     { name: "Contact", section: "contact", icon: Mail, hasDialog: false },
   ]
 
