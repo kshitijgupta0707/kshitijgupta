@@ -27,7 +27,7 @@ export default function ProjectsSection() {
       id: 1,
       title: "PralaySetu:Bridging Crisis To Safety",
       description:
-         `PralaySetu is a MERN stack-based disaster management platform with ML integration, 
+        `PralaySetu is a MERN stack-based disaster management platform with ML integration, 
         real-time alerts, and multi-role access.
          It enables AI-based disaster prediction, live help requests with map navigation, multilingual support,
           and system-level push notifications for efficient crisis response.`,
@@ -38,7 +38,7 @@ export default function ProjectsSection() {
         "/pralay4.png",
         "/pralay5.png",
       ],
-      tags: ["MERN stack", "Socket.io" ,"Docker",  "Stripe" , "GoogleMap" , "Firebase cloud messaging"],
+      tags: ["MERN stack", "Socket.io", "Docker", "Stripe", "GoogleMap", "Firebase cloud messaging"],
       github: "https://github.com/kshitijgupta0707/Pralaysetu",
       demo: "https://pralaysetu.vercel.app/",
       featured: true,
@@ -46,7 +46,7 @@ export default function ProjectsSection() {
     {
       id: 2,
       title: "BaatCheet",
-      description:  `BaatCheet is a feature-rich chat app offering 
+      description: `BaatCheet is a feature-rich chat app offering 
       real-time updates, personalized profiles , audio calls and intelligent features.
        Manage friendships, receive instant notifications, and chat with an AI-powered bot. 
        Log in securely via email or Google, and enjoy real-time communication through Socket.IO.
@@ -58,7 +58,7 @@ export default function ProjectsSection() {
         "/chat4.png",
         "/chat5.png",
       ],
-      tags: ["MERN stack", "WebRTC", "Socket.io", "Tailwind CSS" , "Gemini AI"],
+      tags: ["MERN stack", "WebRTC", "Socket.io", "Tailwind CSS", "Gemini AI"],
       github: "https://github.com/kshitijgupta0707/WeChat",
       demo: "https://textify-8adi.onrender.com/",
       featured: true,
@@ -77,7 +77,7 @@ export default function ProjectsSection() {
         "/bookmark2.png",
         "/bookmark3.png",
       ],
-      tags: ["Chrome Extension API", "Flask", "MERN stack" ,"Tailwind CSS"],
+      tags: ["Chrome Extension API", "Flask", "MERN stack", "Tailwind CSS"],
       github: "https://github.com/kshitijgupta0707/BookmarkExtension.git",
       demo: "#",
       featured: true,
@@ -175,7 +175,7 @@ export default function ProjectsSection() {
                 : "border-primary/50 text-primary hover:bg-primary/10"
             }
             onClick={() => setActiveFilter("featured")}
-            
+
           >
             Featured
           </Button>
@@ -197,7 +197,21 @@ export default function ProjectsSection() {
 
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">{project.title}</h3>
-                <p className="text-muted-foreground mb-4">{project.description}</p>
+                <p className="text-muted-foreground mb-4 relative">{project.description}
+
+                   {/* Animated background */}
+              <div className="absolute inset-0 opacity-10 blur-xl overflow-hidden">
+                <div
+                  className={`absolute -inset-1 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full animate-spin-slow`}
+                  style={{
+                    transformOrigin: "center center",
+                    animation: `spin 10s linear infinite`,
+                  }}
+                >
+
+                </div>
+              </div>
+                </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, i) => (
                     <Badge key={i} className="bg-primary/20 text-primary hover:bg-primary/30">
@@ -205,35 +219,34 @@ export default function ProjectsSection() {
                     </Badge>
                   ))}
                 </div>
-                <div className="flex gap-4">
-                  <a
-                    href={project.github}
-                    className="text-muted-foreground hover:text-primary transition-colors flex items-center"
-                  >
+                <div className="flex gap-4 z-50">
+                  <Link href={project.github} target="_blank" rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors flex items-center">
                     <Github className="w-5 h-5 mr-1" />
                     Code
-                  </a>
-                  <a
+                  </Link>
+                  {/* {
+                    <div>
+                      {console.log(project.demo)}
+                      {console.log(project.github)}
+                    </div>
+  } */}
+                  <Link
                     href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-muted-foreground hover:text-primary transition-colors flex items-center"
+                    onClick={() => {
+                      console.log("demo clicked");
+                    }}
                   >
                     <ExternalLink className="w-5 h-5 mr-1" />
                     Demo
-                  </a>
+                  </Link>
+
                 </div>
               </div>
-                {/* Animated background */}
-                <div className="absolute inset-0 opacity-10 blur-xl overflow-hidden">
-                  <div
-                    className={`absolute -inset-1 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full animate-spin-slow`}
-                    style={{
-                      transformOrigin: "center center",
-                      animation: `spin 20s linear infinite`,
-                    }}
-                  >
-                    
-                  </div>
-                </div>
+             
             </div>
           </motion.div>
         ))}
