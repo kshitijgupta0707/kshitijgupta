@@ -58,44 +58,29 @@ export default function AboutSection() {
             I'm a <span className="text-primary">Full Stack Developer</span>  and <span className="text-primary">Problem Solver</span> with a passion for creating beautiful and
             functional websites
           </h3>
-            <p className="text-gray-300 mb-8">
+            <p className="text-muted-foreground  mb-8">
             I am currently pursuing a Bachelor's degree in Computer Science
              and Engineering at JIIT, Noida (2022–2026), with a CGPA of 8.5.
             </p>
 
-          <p className="text-gray-300 mb-6">
+          <p className="text-muted-foreground  mb-6">
           I'm passionate about building innovative solutions and constantly evolving my 
           skills in software development, data structures, and algorithms. With hands-on experience in the MERN stack and a variety of technologies, 
           I aim to create impactful applications that solve real-world problems.
           </p>
-          {/* <p className="text-gray-300 mb-6">
-            With over 5 years of experience in web development, I specialize in building modern, responsive applications
-            using cutting-edge technologies. My journey began with a fascination for how things work on the web, which
-            led me to pursue a career in development.
-          </p> */}
+       
 
-          <p className="text-gray-300 mb-8">
-            {/* I believe in writing clean, maintainable code and creating intuitive user experiences. When I'm not coding,
-            you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge
-            through blog posts and community events. */}
-          </p>
+      
 
           <div className="grid grid-cols-2 gap-4 mb-8">
-            {/* <div>
-              <h4 className="font-semibold mb-2 text-primary">Name:</h4>
-              <p className="text-gray-300">Kshitij Gupta</p>
-            </div> */}
-            {/* <div>
-              <h4 className="font-semibold mb-2 text-primary">Email:</h4>
-              <p className="text-gray-300">kshitijgupta070704@gmail.com</p>
-            </div> */}
+           
             <div>
               <h4 className="font-semibold mb-2 text-primary">Location:</h4>
-              <p className="text-gray-300">Gurgaon, Harayana</p>
+              <p className="text-muted-foreground ">Gurgaon, Harayana</p>
             </div>
             <div>
               <h4 className="font-semibold mb-2 text-primary">Availability:</h4>
-              <p className="text-gray-300">Full-time</p>
+              <p className="text-muted-foreground ">Full-time</p>
             </div>
           </div>
 

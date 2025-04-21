@@ -24,6 +24,10 @@
     --input: 240 5.9% 90%;
     --ring: 173 80% 36%;
     --radius: 0.75rem;
+    --visibility: hidden;
+
+  
+  
   }
 
   .dark {
@@ -46,6 +50,8 @@
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 173 80% 36%;
+    visibility: visible;
+
   }
 }
 

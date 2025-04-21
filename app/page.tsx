@@ -74,7 +74,7 @@ export default function Portfolio() {
         <QuoteBlock
           quote="Design is not just what it looks like and feels like. Design is how it works."
           author="Steve Jobs"
-          backgroundImage="/images/code-bg-1.jpg"
+          backgroundImage="/images/1.jpg"
         />
 
         <section ref={sectionRefs.projects} id="projects" className="py-24">

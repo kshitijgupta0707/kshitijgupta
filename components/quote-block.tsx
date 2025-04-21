@@ -25,7 +25,8 @@ export default function QuoteBlock({ quote, author, backgroundImage }: QuoteBloc
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20 blur-sm"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-gray-900/80" />
+      <div  className=" hidden dark:block absolute inset-0 bg-gradient-to-r from-gray-900 to-gray-900/80" />
+      <div  className=" dark:hidden absolute inset-0 bg-gradient-to-r from-cyan-900 to-cyan-900/80" />
 
       <div className="relative container mx-auto px-4 text-center">
         <svg className="w-12 h-12 mx-auto mb-6 text-cyan-400 opacity-50" fill="currentColor" viewBox="0 0 32 32">
