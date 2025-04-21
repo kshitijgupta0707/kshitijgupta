@@ -24,8 +24,8 @@ export default function SplashScreen() {
           transition={{ duration: 0.5 }}
         >
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 3, y: 0 }}
             transition={{ delay: 0.2, duration: 0.5 }}
             className="text-center"
           >

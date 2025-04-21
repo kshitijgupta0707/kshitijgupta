@@ -21,7 +21,7 @@ export default function Header({ sectionRefs }: HeaderProps) {
     { name: "About", section: "about" },
     { name: "Projects", section: "projects", hasDialog: true },
     { name: "Skills", section: "skills" },
-    { name: "Experience", section: "experience" },
+    // { name: "Experience", section: "experience" },
     { name: "Contact", section: "contact" },
   ]
 

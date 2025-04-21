@@ -3,7 +3,6 @@
 import { motion } from "framer-motion"
 import { Github, Linkedin, Mail } from "lucide-react"
 import Link from "next/link"
-
 export default function HeroSection() {
   return (
     <div className="relative flex flex-col items-center justify-center min-h-screen">
@@ -35,8 +34,12 @@ export default function HeroSection() {
           >
             <Linkedin className="w-5 h-5" />
           </motion.a>
+          
+
           <motion.a
-            href="kshitijgupta070704@gmail.com"
+            href="mailto:kshitijgupta070704@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors duration-300"
             whileHover={{ y: -3 }}
             initial={{ opacity: 0 }}
@@ -74,7 +77,7 @@ export default function HeroSection() {
           <p className="text-muted-foreground text-lg mb-10 max-w-2xl mx-auto">
             {/* I build exceptional digital experiences that combine stunning design with cutting-edge technology.
             Specializing in creating elegant solutions to complex problems. */}
-            I'm a Pre-Final Year Computer Science Engineering Student at JIIT,
+            I'm a Pre-Final Year Computer Science & Engineering Student at JIIT,
             Noida. Primary Intereseted in Web Development and Problem Solving.
           </p>
 

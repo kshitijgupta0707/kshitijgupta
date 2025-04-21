@@ -42,6 +42,8 @@ export default function AllProjectsPage() {
       github: "https://github.com/kshitijgupta0707/Pralaysetu",
       demo: "https://pralaysetu.vercel.app/",
       featured: true,
+      category: "web"
+
     },
     {
       id: 2,
@@ -62,6 +64,8 @@ export default function AllProjectsPage() {
       github: "https://github.com/kshitijgupta0707/WeChat",
       demo: "https://textify-8adi.onrender.com/",
       featured: true,
+      category: "web"
+
     },
     {
       id: 3,
@@ -81,6 +85,7 @@ export default function AllProjectsPage() {
       github: "https://github.com/kshitijgupta0707/BookmarkExtension.git",
       demo: "#",
       featured: true,
+      category: "web"
     }
     // {
     //   id: 1,
@@ -259,9 +264,10 @@ export default function AllProjectsPage() {
   const categories = [
     { id: "all", name: "All Projects" },
     { id: "web", name: "Web Development" },
-    { id: "mobile", name: "Mobile Apps" },
+    // { id: "mobile", name: "Mobile Apps" },
     { id: "ai", name: "AI & ML" },
-    { id: "iot", name: "IoT" },
+    { id: "c", name: "C++" },
+    // { id: "iot", name: "IoT" },
   ]
 
   const filteredProjects =
