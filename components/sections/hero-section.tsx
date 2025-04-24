@@ -104,7 +104,7 @@ export default function HeroSection() {
         >
           <div className="flex gap-3 relative">
           <a
-            href="https://github.com"
+            href="https://github.com/kshitijgupta0707"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors duration-300 p-2"
@@ -112,7 +112,7 @@ export default function HeroSection() {
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/kshitijgupta0707"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors duration-300 p-2"
@@ -120,7 +120,7 @@ export default function HeroSection() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="mailto:hello@example.com"
+            href="mailto:kshitijgupta070704@gmail.com"
             className="text-muted-foreground hover:text-primary transition-colors duration-300 p-2"
           >
             <Mail className="w-5 h-5" />

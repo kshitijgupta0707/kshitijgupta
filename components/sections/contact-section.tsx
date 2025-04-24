@@ -28,13 +28,13 @@ export default function ContactSection() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-  
+
   };
 
 
 
 
-  const handleSubmit = async(e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     // Handle form submission logic here
     // Reset form
@@ -84,21 +84,21 @@ export default function ContactSection() {
       icon: Mail,
       title: "Email",
       value: "kshitijgupta070704@gmail.com",
-      action: "mailto:kshitij@example.com",
+      action: "mailto:kshitijgupta070704@gmail.com",
       color: "from-blue-500 to-cyan-400",
     },
     {
       icon: Phone,
       title: "Phone",
       value: "+91 8851330391",
-      action: "tel:+918851330391",
+      action: "tel:8851330391",
       color: "from-green-500 to-emerald-400",
     },
     {
       icon: MessageSquare,
       title: "WhatsApp",
-      value: "+91 8851330391  ",
-      action: "https://wa.me/919876543210",
+      value: "8851330391  ",
+      action: "https://wa.me/8851330391",
       color: "from-emerald-500 to-green-400",
     },
     {
@@ -176,7 +176,7 @@ export default function ContactSection() {
 
           {/* <h3 className="text-2xl font-bold  mb-6  mt-24">Follow Me</h3> */}
 
-         
+
         </motion.div>
 
         <motion.div
@@ -257,13 +257,13 @@ export default function ContactSection() {
                 <Send className="w-4 h-4 mr-2" />
                 Send Message
               </Button>
-              
-                {result && (
-                  <div className="text-green-500 text-sm mt-2 m-auto text-center">
-                    {result}
-                  </div>
-                )}
-                          </form>
+
+              {result && (
+                <div className="text-green-500 text-sm mt-2 m-auto text-center">
+                  {result}
+                </div>
+              )}
+            </form>
           </div>
         </motion.div>
       </div>
