@@ -54,18 +54,18 @@ export default function AboutSection() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
         >
-          <h3 className="text-2xl font-bold mb-4">
-            I'm a <span className="text-primary">Full Stack Developer</span>  and <span className="text-primary">Problem Solver</span> with a passion for creating beautiful and
-            functional websites
+          <h3 className="text-2xl font-bold mb-4  tracking-wide">
+            I'm a <span className="text-primary">Full Stack Developer</span> interested in problem solving & creating beautiful and
+            functional websites.
           </h3>
             <p className="text-muted-foreground  mb-8">
-            I am currently pursuing a Bachelor's degree in Computer Science
+            I am currently pursuing Bachelor's degree in Computer Science
              and Engineering at JIIT, Noida (2022–2026), with a CGPA of 8.5.
             </p>
 
           <p className="text-muted-foreground  mb-6">
           I'm passionate about building innovative solutions and constantly evolving my 
-          skills in software development, data structures, and algorithms. With hands-on experience in the MERN stack and a variety of technologies, 
+          skills in software development, data structures and algorithms. With hands-on experience in the MERN stack and a variety of technologies, 
           I aim to create impactful applications that solve real-world problems.
           </p>
        
@@ -84,7 +84,7 @@ export default function AboutSection() {
             </div>
           </div>
 
-          <a href="/resume.pdf" download>
+          <a href="/kshitijresume.pdf" download>
             <Button className="bg-cyan-500 hover:bg-cyan-600 text-white">
               <Download className="mr-2 h-4 w-4" />
               Download Resume

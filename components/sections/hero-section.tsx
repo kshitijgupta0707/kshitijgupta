@@ -67,7 +67,7 @@ export default function HeroSection() {
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
             <span className="block mb-2">Hi, I'm Kshitij Gupta</span>
-            <span className="text-primary">Creative Developer</span>
+            <span className="text-primary">Fullstack Developer</span>
           </h1>
 
           {/* <p className="text-muted-foreground text-lg mb-10 max-w-2xl mx-auto">
@@ -78,14 +78,14 @@ export default function HeroSection() {
             {/* I build exceptional digital experiences that combine stunning design with cutting-edge technology.
             Specializing in creating elegant solutions to complex problems. */}
             I'm a Pre-Final Year Computer Science & Engineering Student at JIIT,
-            Noida. Primary Intereseted in Web Development and Problem Solving.
+            Noida. Primarily Interested in Web Development and Problem Solving.
           </p>
 
           
           <div className="flex justify-center relative">
-            <Link href="https://drive.google.com/file/d/1MGtt9YtJeRu2l5OQqpVGGA0wLKDyTsDp/view?usp=sharing" target="_blank" className="relative inline-block">
+            <Link href="https://drive.google.com/file/d/1mF7bRHqMVFus7cElE8j2BoICq_sVTQWe/view?usp=sharing" target="_blank" className="relative inline-block">
               <div className="gradient-border">
-                <button className="relative z-10 px-8 py-3 bg-background text-foreground font-medium rounded-md">
+                <button className="relative z-10 px-8 py-3 bg-background text-foreground font-medium rounded-md hover:bg-primary">
                   View Resume 
                 </button>
               </div>
