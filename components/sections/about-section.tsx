@@ -55,12 +55,11 @@ export default function AboutSection() {
           transition={{ duration: 0.8 }}
         >
           <h3 className="text-2xl font-bold mb-4  tracking-wide">
-            I'm a <span className="text-primary">Full Stack Developer</span> interested in problem solving & creating beautiful and
-            functional websites.
+            I'm a <span className="text-primary">Full Stack Developer</span> interested in problem solving & creating beautiful functional websites.
           </h3>
             <p className="text-muted-foreground  mb-8">
             I am currently pursuing Bachelor's degree in Computer Science
-             and Engineering at JIIT, Noida (2022–2026), with a CGPA of 8.5.
+             and Engineering at JIIT, Noida (2022–2026) with a CGPA of 8.5.
             </p>
 
           <p className="text-muted-foreground  mb-6">
@@ -72,17 +71,17 @@ export default function AboutSection() {
 
       
 
-          <div className="grid grid-cols-2 gap-4 mb-8">
+          {/* <div className="grid grid-cols-2 gap-4 mb-8"> */}
            
-            <div>
+            {/* <div>
               <h4 className="font-semibold mb-2 text-primary">Location:</h4>
               <p className="text-muted-foreground ">Gurgaon, Harayana</p>
             </div>
             <div>
               <h4 className="font-semibold mb-2 text-primary">Availability:</h4>
               <p className="text-muted-foreground ">Full-time</p>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
 
           <a href="/kshitijresume.pdf" download>
             <Button className="bg-cyan-500 hover:bg-cyan-600 text-white">

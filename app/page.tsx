@@ -85,11 +85,11 @@ export default function Portfolio() {
           <SkillsSection />
         </section>
 
-        <QuoteBlock
+        {/* <QuoteBlock
           quote="Talk is cheap. Show me the code."
           author="Linus Torvalds"
           backgroundImage="/images/code-bg-2.jpg"
-        />
+        /> */}
 {/* 
         <section ref={sectionRefs.experience} id="experience" className="py-24">
           <ExperienceSection />

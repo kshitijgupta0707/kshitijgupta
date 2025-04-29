@@ -67,7 +67,6 @@ export default function ContactSection() {
     }
 
 
-    alert("Message sent successfully!")
   }
 
   const fadeInUp = {
@@ -104,8 +103,8 @@ export default function ContactSection() {
     {
       icon: MapPin,
       title: "Location",
-      value: "New Delhi, India",
-      action: "https://maps.google.com/?q=Noida,+India",
+      value: "Gurgaon, India",
+      action: "https://maps.google.com/?q=Gurgaon,+India",
       color: "from-red-500 to-orange-400",
     },
   ]

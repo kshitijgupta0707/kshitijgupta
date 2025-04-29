@@ -54,16 +54,16 @@ export default function HeroSection() {
 
       <div className="text-center max-w-3xl px-4 lg:ml-32" >
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
-          <div className="mb-6 inline-block">
+          {/* <div className="mb-6 inline-block">
             <motion.span
               className="text-primary font-medium px-4 py-1.5 rounded-full border border-primary/30 bg-primary/10 text-sm"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.2, duration: 0.5 }}
             >
-              Full Stack Developer
-            </motion.span>
-          </div>
+              // {/* Full Stack Developer */}
+            {/* </motion.span> */}
+          {/* </div> */} 
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
             <span className="block mb-2">Hi, I'm Kshitij Gupta</span>
@@ -78,7 +78,7 @@ export default function HeroSection() {
             {/* I build exceptional digital experiences that combine stunning design with cutting-edge technology.
             Specializing in creating elegant solutions to complex problems. */}
             I'm a Pre-Final Year Computer Science & Engineering Student at JIIT,
-            Noida. Primarily Interested in Web Development and Problem Solving.
+            Noida, Primarily Interested in Web Development and Problem Solving.
           </p>
 
           
