@@ -322,8 +322,8 @@ export default function ProjectsSection() {
     },
     {
       id: 2,
-      title: "BaatCheet",
-      description: `BaatCheet is a feature-rich chat app offering 
+      title: "Zolo",
+      description: `Zolo is a feature-rich chat app offering 
       real-time updates, personalized profiles , audio calls and intelligent features.
        Manage friendships, receive instant notifications, and chat with an AI-powered bot. 
        Log in securely via email or Google, and enjoy real-time communication through Socket.IO.
@@ -343,8 +343,8 @@ export default function ProjectsSection() {
     },
     {
       id: 3,
-      title: "OneBookMarker",
-      description: `The OneBookMarker is a Extension that
+      title: "Quotient",
+      description: `The Quotient is a Extension that
        uses machine learning to automatically categorize bookmarks based on their content. 
        Users can then modify these categories, create subcategories, and organize bookmarks 
        in a multi-level hierarchy. 
