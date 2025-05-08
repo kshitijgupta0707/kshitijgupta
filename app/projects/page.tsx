@@ -27,7 +27,7 @@ export default function AllProjectsPage() {
       id: 1,
       title: "PralaySetu:Bridging Crisis To Safety",
       description:
-         `PralaySetu is a MERN stack-based disaster management platform with ML integration, 
+        `PralaySetu is a MERN stack-based disaster management platform with ML integration, 
         real-time alerts, and multi-role access.
          It enables AI-based disaster prediction, live help requests with map navigation, multilingual support,
           and system-level push notifications for efficient crisis response.`,
@@ -38,7 +38,7 @@ export default function AllProjectsPage() {
         "/pralay4.png",
         "/pralay5.png",
       ],
-      tags: ["MERN stack", "Socket.io" ,"Docker",  "Stripe" , "GoogleMap" , "Firebase cloud messaging"],
+      tags: ["MERN stack", "Socket.io", "Docker", "Stripe", "GoogleMap", "Firebase cloud messaging"],
       github: "https://github.com/kshitijgupta0707/Pralaysetu",
       demo: "https://pralaysetu.vercel.app/",
       featured: true,
@@ -48,7 +48,7 @@ export default function AllProjectsPage() {
     {
       id: 2,
       title: "BaatCheet",
-      description:  `BaatCheet is a feature-rich chat app offering 
+      description: `BaatCheet is a feature-rich chat app offering 
       real-time updates, personalized profiles , audio calls and intelligent features.
        Manage friendships, receive instant notifications, and chat with an AI-powered bot. 
        Log in securely via email or Google, and enjoy real-time communication through Socket.IO.
@@ -60,7 +60,7 @@ export default function AllProjectsPage() {
         "/chat4.png",
         "/chat5.png",
       ],
-      tags: ["MERN stack", "WebRTC", "Socket.io", "Tailwind CSS" , "Gemini AI"],
+      tags: ["MERN stack", "WebRTC", "Socket.io", "Tailwind CSS", "Gemini AI"],
       github: "https://github.com/kshitijgupta0707/WeChat",
       demo: "https://textify-8adi.onrender.com/",
       featured: true,
@@ -81,9 +81,33 @@ export default function AllProjectsPage() {
         "/bookmark2.png",
         "/bookmark3.png",
       ],
-      tags: ["Chrome Extension API", "Flask", "MERN stack" ,"Tailwind CSS"],
-      github: "https://github.com/kshitijgupta0707/BookmarkExtension.git",
+      tags: ["Chrome Extension API", "Flask", "MERN stack", "Tailwind CSS"],
+      github: "https://github.com/kshitijgupta0707/BookmarkExtension",
       demo: "#",
+      featured: true,
+      category: "web"
+    },
+    {
+      id: 3,
+      title: "Talking Tunes",
+      description: `Talking Tunes is a browser-based reflex and 
+      memory game I developed as a 2nd-year tech volunteer for 
+      the Optica Society. Players must match a sequence of sounds
+       by pressing the correct keys, each randomly mapped to 
+       different audio clips. If a wrong key is pressed, the 
+       game resets, challenging players to stay focused and 
+       accurate. Built using HTML, CSS, and JavaScript, the 
+       game delivers an engaging and interactive musical 
+       experience. It was showcased during Optica’s
+       technical fest and received great participation. `,
+      images: [
+        "/talk1.png",
+        "/talk2.png",
+        "/talk3.png",
+      ],
+      tags: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/kshitijgupta0707/TalkingTune",
+      demo: "https://kshitijgupta0707.github.io/TalkingTune/",
       featured: true,
       category: "web"
     }
